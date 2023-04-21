@@ -50,3 +50,77 @@ table {
 
 
 /* Write your css below here */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 30%;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #53159a;
+	color: #ffff;
+	padding: 15px;
+	font-family: Roboto, sans-serif;
+}
+
+.container h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container form {
+	padding: 20px;
+	display: block;
+}
+
+.container form input {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.container form fieldset {
+	border: 1px solid #ffff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.container form input[type="radio"] {
+	display: inline;
+	margin-top: 5px;
+}
+
+.container form label[for="country"] {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+.container form input[type="checkbox"] {
+	display: inline;
+	margin-right: 10px;
+}
+
+.container form label a[href="#"] {
+	color: #ffff;
+}
+
+.container form button {
+	display: flex;
+	margin-top: 10px;
+	background-color: #ffd700;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 1em;
+	padding: 5px;
+	width: 100%;
+	justify-content: center;
+}
+
+.container form button:hover {
+	background-color: #b89e06;
+	color: #f9f1c6;
+}
+

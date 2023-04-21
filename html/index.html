@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <input type="text" placeholder="First Name" id="first-name" name="first-name">
+                    <input type="text" placeholder="Last Name" id="last-name" name="last-name">
+                    <input type="email" placeholder="Email Address" id="email-address" name="email-address">
+                    <input type="tel" placeholder="Phone Number" id="phone-number" name="phone-number">
+                    <span>Choose Gender</span>
+                    <input type="radio" id="male" value="male" name="gender"><label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="gender"><label for="female">Female</label>
+                    <label for="country">Select Country</label>
+                    <select id="country" name="country">
+                        <option disabled selected value="0">--Country--</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="south-africa">South Africa</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="morocco">Morocco</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Login Information</legend>
+                    <input type="text" placeholder="Enter Username" id="username" name="username">
+                    <input type="password" placeholder="Enter Password" id="password" name="password">
+                    <input type="password" placeholder="Repeat Password" id="password-repeat" name="password-repeat">
+                </fieldset>
+                <input type="checkbox" id="accept" value="accept" name="terms"><label for="accept">I Accept the <a href="#" target="_blank" rel="noopener">Terms and Conditions</a></label>
+                <button type="submit">Sign me up!</button>
+            </form>
+        </div>
+    </body>
+</html>
